@@ -79,7 +79,7 @@ repositories:
   # launcher
   launcher/twizy_autoware_launch:
     type: git
-    url: https://github.com/dtonda8/twizy_autoware_launch.git
+    url: https://github.com/dtonda8/autoware_launch.twizy.git
     version: main
   # sensor_component
   sensor_component/external/sensor_component_description:
