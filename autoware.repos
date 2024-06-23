@@ -109,9 +109,18 @@ repositories:
     type: git
     url: https://github.com/dtonda8/twizy_sensor_kit_launch.git
     version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
+  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into twizy_sensor_kit_launch
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
+    version: main
+  # external repos for camera streaming
+  sensor_kit/external/ros2_shared:
+    type: git
+    url: https://github.com/ptrmu/ros2_shared.git
+    version: master
+  sensor_kit/external/gscam2:
+    type: git
+    url: git@github.com:clydemcqueen/gscam2.git
     version: main
   sensor_kit/awsim_labs_sensor_kit_launch:
     type: git
