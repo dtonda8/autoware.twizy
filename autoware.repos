@@ -118,9 +118,9 @@ repositories:
     url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
     version: main
   # vehicle
-  vehicle/twizy_launch:
+  vehicle/twizy_vehicle_launch:
     type: git
-    url: https://github.com/dtonda8/twizy_launch.git
+    url: https://github.com/dtonda8/twizy_vehicle_launch.git
     version: main
   vehicle/external/pacmod_interface:
     type: git
