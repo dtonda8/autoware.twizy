@@ -147,6 +147,10 @@ repositories:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: main
+  vehicle/external/SD-VehicleInterface:
+    type: git
+    url: https://github.com/Monash-Connected-Autonomous-Vehicle/SD-VehicleInterface.git
+    version: ackermann
   # param
   param/twizy_individual_params:
     type: git
