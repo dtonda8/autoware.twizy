@@ -10,8 +10,6 @@ on:
   push:
     tags:
       - openadkit-v*.*.*
-    branches:
-      - main
   schedule:
     - cron: 0 0 1,15 * *
   workflow_dispatch:
@@ -80,7 +78,7 @@ jobs:
             cache-${{ matrix.platform }}-
 
       - name: Inject cache into docker
-        uses: reproducible-containers/buildkit-cache-dance@v3.1.1
+        uses: reproducible-containers/buildkit-cache-dance@v3.1.2
         with:
           cache-map: |
             {
