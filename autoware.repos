@@ -33,7 +33,7 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 0.0.0
+    version: df9cd361d74f61de5aa7b800e5fba576755ac3eb # last commit compatible, doesn't include autoware.universe port of geographical utils
   # universe
   universe/autoware.universe:
     type: git
@@ -112,7 +112,7 @@ repositories:
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into twizy_sensor_kit_launch
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
-    version: main
+    version: 63213e91194d492b0f63ac5e51d60f51d346fdc9 # represents last commit hash with compatitble topics name (vehicle_velocity_converter instead of autoware_vehicle_velocity_converter)
   # external repos for camera streaming
   sensor_kit/external/ros2_shared:
     type: git
