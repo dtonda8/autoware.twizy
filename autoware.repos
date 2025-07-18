@@ -129,7 +129,12 @@ repositories:
     url: https://github.com/tier4/agnocast.git
     version: 2.1.1
 
+  # Twizy additions:
   rclcpp:
     type: git
     url: https://github.com/tier4/rclcpp.git
     version: t4-main
+  param/twizy_vehicle_individual_params:
+    type: git
+    url: https://github.com/dtonda8/twizy_individual_params.git
+    version: main
