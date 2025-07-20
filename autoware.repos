@@ -99,7 +99,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/Monash-Connected-Autonomous-Vehicle/autoware_launch.twizy.git
-    version: main
+    version: mcav-0.45.3
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
@@ -128,12 +128,17 @@ repositories:
     type: git
     url: https://github.com/tier4/agnocast.git
     version: 2.1.1
-
-  # Twizy additions:
+  ## MCAV Additions
+  # rclcpp build enables multiple setting of goal/post estimates
   rclcpp:
     type: git
     url: https://github.com/tier4/rclcpp.git
     version: t4-main
+  SD-VehicleInterface:
+    type: git
+    url: https://github.com/Monash-Connected-Autonomous-Vehicle/SD-VehicleInterface.git
+    version: ackermann
+
   param/twizy_vehicle_individual_params:
     type: git
     url: https://github.com/dtonda8/twizy_individual_params.git
