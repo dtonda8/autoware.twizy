@@ -138,8 +138,3 @@ repositories:
     type: git
     url: https://github.com/Monash-Connected-Autonomous-Vehicle/SD-VehicleInterface.git
     version: ackermann
-
-  param/twizy_vehicle_individual_params:
-    type: git
-    url: https://github.com/dtonda8/twizy_individual_params.git
-    version: main
