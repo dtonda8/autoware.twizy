@@ -1,7 +1,7 @@
 repositories:
   autoware/calibration_tools:
     type: git
-    url: https://github.com/dtonda8/CalibrationTools.git
+    url: https://github.com/Monash-Connected-Autonomous-Vehicle/CalibrationTools.git
     version: tier4/universe
   vendor/lidartag:
     type: git
